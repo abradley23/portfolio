@@ -50,5 +50,5 @@ h1 {
 
 .contact_form {
   display: grid;
-  /* justify-content: center; */
+  justify-content: center;
 }

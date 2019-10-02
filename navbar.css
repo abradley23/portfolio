@@ -24,6 +24,6 @@ nav ul li a.current_page {
 }
 
 nav ul li a:hover{
-  background-color: #efdebf;
+  color: #f99613;
   transition: background-color 0.5s;
 }

@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+  
   </head>
 
   <nav>
@@ -29,65 +29,50 @@
   <main>
     <header>
       <h1>Adlai Bradley</h1>
-      <div id="r_type_container"><h3>(Pronounced: ADD-LAY)</h3></div>
+        <p>(Pronounced: ADD-LAY)</p>
         <img id="profile_pic" src="adi_avi.png" alt="Adlai">
           <h2>Full Stack Web Developer</h2>   
+          <p id="blurb">My name is Adlai and what I find most important in web development is emphasizing the connection between the user and the application. 
+            Your first impression is everything to me and I want to make sure that my work always reflects my attention to that aspect.
+            I focus on grabbing the user's attention and keeping it. I want to engage people in a meaningful way.
+          </p>
       </header>
     <body>
       <div id="top"></div>
         <section class="gallery"> <!-- / projects -->
-          <div class="row">
-            <ul>
-              <a href="#" class="close"></a>
-              <li>
-                <a href="#item01">
-                  <img src="WynHero SS.png" alt="WynHero">
-                </a>
-              </li>
-        
-              <li>
-                <a href="#wynwaldo">
-                  <img src="WynWaldo SS.png" alt="WynWaldo">
-                </a>
-              </li>
+          <h2>Projects</h2>
+            <div class="row">
+              <div id="proj-container">
+                <a href="#" class="close"></a>
+                <div class="proj">
+                  <a href="#item01">
+                    <img src="WynHero SS.png" alt="WynHero">
+                  </a>
+                </div>
+          
+                <div class="proj">
+                  <a href="#item02">
+                    <img src="WynWaldo SS.png" alt="WynWaldo">
+                  </a>
+                </div>
+              </div>
             </div> <!-- / row -->
 
-            <!-- WynHero-->
-            <div id="item01" class="port">
-            
-              <div class="row">
-                <div class="description">
-                  <h1>WynHero</h1>
-                    <p>Superhero database React app allowing users to search for biographical information on superheroes and other characters.</p>
-                      <ul>
-                        <li>Front-End Developer</li>
-                        <li>Information drawn from the Superhero API using axios</li>
-                      </ul>
-                </div>
-                  <img src="WynHero SS.png" alt="WynHero">
-                </div>
-              </div> <!-- / row -->
-          
-            </div> <!-- / WynHero -->
-          
-            <!-- WynWaldo -->
-            <div id="item02" class="port">
-            
-              <div class="row">
-                <div class="description">
-                  <h1>WynWaldo</h1>
-                      <p>Photo-sharing social app built on Ruby on Rails directing users to images of street art in Wynwood, Miami, FL.</p>
-                        <ul>
-                          <li>Front-End Developer</li>
-                          <li>Information drawn from the Superhero API using axios</li>
-                        </ul>
-                </div>
-                <img src="WynWaldo SS.png" alt="WynWaldo">
-              </div> <!-- / row -->
-          
-            </div> <!-- / WynWaldo -->
-          
-          </section> <!-- / projects -->
+          <h2>Skills</h2>
+            <div id="skill-wrapper"> <!-- / skills -->
+              <div id="skill-container">
+                <div><img src="html-logo.png" alt="HTML"></div>
+                <div><img src="css-logo.png" alt="CSS"></div>
+                <div><img src="javascript-logo.jpg" alt="JavaScript"></div>
+                <div><img src="nodejs-logo.png" alt="node.js"></div>
+                <div><img src="React.js_logo-512.png" alt="React.js"></div>
+                <div><img src="Ruby_logo.png" alt="Ruby"></div>
+                <div><img src="github-logo-white.png" alt="Github"></div>
+                <div><img src="logo_adobe_ps_ai.png" alt="Adobe Photoshop/Illustrator"></div>
+                <div><img src="xd.png" alt="Adobe Xd"></div>
+              </div>
+            </div>
+          <link rel="stylesheet" href="global.css">
     </body>
   </main>
 </html>
