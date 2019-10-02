@@ -27,3 +27,9 @@ nav ul li a:hover{
   color: #f99613;
   transition: background-color 0.5s;
 }
+
+nav ul li img {
+  height: 18px;
+  width: 18px;
+  object-fit: contain;
+}
