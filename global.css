@@ -16,6 +16,9 @@ a{
   font-weight: bolder;
   color: #f99613;
 }
+a:hover{
+  color: #46bab2;
+}
 li {
   list-style-type: none;
 }
