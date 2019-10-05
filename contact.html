@@ -20,44 +20,46 @@
         <a class="current_page" href="contact.html">Contact</a>
       </li>
       <li>
-        <a href="https://github.com/abradley23"><img src="github-logo-white.png" alt="Github"></a>
+        <a href="https://github.com/abradley23"><img src="github-logo-white.png" id="GH_logo" alt="Github"></a>
       </li> 
       <li>
-        <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="linkedIn_logo_circle.png" alt="LinkedIn"></a>
-      </li> 
+        <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="linkedIn_logo_circle.png" id="LI_logo" alt="LinkedIn"></a>
+      </li>   
     </ul>
   </nav>
 
   <header>
-    <h1>Contact me!</h1>
+    <h1>Let's get in touch!</h1>
   </header>
 
-<main class="contact_form">
-    <body>
-    <form
-      action="https://formspree.io/adlai.bradley@gmail.com"
-      method="post"
-    >
-    <div class="form_input">
-      <label for="your_name">Your Name</label>
-    <input
-    type="text"
-    name="your_name"
-    autocomplete="off"
-    />
-  </div>
+  <main class="contact_form">
+    <div id="form_container">
+      <body>
+        <form
+          action="https://formspree.io/adlai.bradley@gmail.com"
+          method="post"
+        >
+        <div class="form_input">
+          <label for="your_name">Your Name</label>
+        <input
+        type="text"
+        name="your_name"
+        autocomplete="off"
+        />
+      </div>
 
-  <div class="form_input">
-    <label for="your_message">Your Message</label>
-    <textarea
-      name="your_message"
-      rows="10" cols="100"
-      >
-    </textarea>
+      <div class="form_input">
+        <label for="your_message">Your Message</label>
+        <textarea
+          name="your_message"
+          rows="10" cols="100"
+          >
+        </textarea>
+        </div>
+        <button type="Send">Send</button>
+        <input type="reset" name="Reset"></input>
+        </form>
+      </body>
     </div>
-    <button type="Send">Send</button>
-    <input type="reset" name="Reset"></input>
-    </form>
-  </body>
   </main>
 </html>
