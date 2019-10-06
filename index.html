@@ -6,77 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adlai Bradley</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">    
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/index.css">
   </head>
 
   <nav>
     <ul>
       <li>
-        <a class="current_page" href="index.html">Home</a>
+        <a class="current_page" href="./style/index.html">Home</a>
       </li>
       <li>
         <a href="contact.html">Contact</a>
       </li>
       <li>
-        <a href="https://github.com/abradley23"><img src="github-logo-white.png" id="GH_logo" alt="Github"></a>
+        <a href="https://github.com/abradley23"><img src="./images/github-logo-white.png" id="GH_logo" alt="Github"></a>
       </li> 
       <li>
-        <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="linkedIn_logo_circle.png" id="LI_logo" alt="LinkedIn"></a>
+        <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="./images/linkedIn_logo_circle.png" id="LI_logo" alt="LinkedIn"></a>
       </li> 
     </ul>
   </nav>
 
   <main>
     <header>
-      <h1>Adlai Bradley</h1>
-        <p id="addlay">(Pronounced: ADD-LAY)</p>
-        <img id="profile_pic" src="adi_avi.png" alt="Adlai">
-          <h2>Full Stack Web Developer</h2>   
-          <p id="blurb">My name is Adlai and what I find most important in web development is emphasizing the connection between the user and the application. 
-            Your first impression is everything to me and I want to make sure that my work always reflects my attention to that aspect.
-            I focus on grabbing the user's attention and keeping it. I want to engage people in a meaningful way. I am also very big on visual art and design 
-            so I really enjoy designing or collaborating with UX/UI teams to make beautiful applications.
-          </p>
-      </header>
+      <!-- <div class="welcome-container"> -->
+
+        <div class="name-label">Adlai Bradley</div>
+        <div id="addlay">(Pronounced: ADD-LAY)</div>
+        <img id="profile_pic" src="./images/adi_avi.png" alt="Adlai">
+        <div id="dev-label">Full Stack Web Developer</div>   
+        <p id="blurb">My name is Adlai and I find that emphasizing the connection between the user and the application is priority in web development. 
+          Your first impression is everything to me and I want to make sure that my work always reflects my attention to that aspect.
+          I focus on grabbing the user's attention and keeping it. I want to engage people in a meaningful way. I am also very big on visual art and design 
+          so I really enjoy designing or collaborating with UX/UI teams to make beautiful applications.
+        </p>
+      <!-- </div> -->
+    </header>
+
     <body>
       <div id="top"></div>
         <section class="gallery"> <!-- / projects -->
-          <h2>Projects</h2>
+          <div class="section-title">Projects</div>
             <div class="row">
               <div id="proj-container">
                 <a href="#" class="close"></a>
                 <div class="proj">
-                  <a href="http://wynhero.herokuapp.com/"><span class="projspan">WynHero</span></a>
-                    <img src="WynHeroSS2.png" alt="WynHero"/>
-                      <a href="https://github.com/wyncode/adlai_gabriel_jajuan_miguel/">Github</a>
+                  <a href="http://wynhero.herokuapp.com/" target="_blank">
+                    <span class="projspan">WynHero</span>
+                  </a>
+                  <div class="project-pic-hero">
+                    <div class="project-description">
+                        Desciption of your project goes here. Talk about the technologies used. Time it took, the team, anything you think an employer would be interested in.
+                    </div>
+                  </div>
+                    <!-- <img src="./images/WynHeroSS2.png" alt="WynHero"/> -->
+                      <a href="https://github.com/wyncode/adlai_gabriel_jajuan_miguel/" target="_blank">Source Code</a>
                 </div>
           
                 <div class="proj">
                   <a href="https://wynwaldo.herokuapp.com/"><span class="projspan">WynWaldo</span></a>
-                    <img src="WynWaldoSS.png" alt="WynWaldo"/>
-                      <a href="https://github.com/wyncode/aaron_nicole_adlai_wilson">Github</a>
+                    <div class='project-pic-waldo'>
+                      <div class='project-description'>
+                        Desciption of your project goes here. Talk about the technologies used. Time it took, the team, anything you think an employer would be interested in.
+                      </div>
+                    </div>
+                    <a href="https://github.com/wyncode/aaron_nicole_adlai_wilson" target="_blank">Source Code</a>
                 </div>
               </div>
             </div> <!-- / row -->
 
-          <h2>Skills</h2>
+          <div class="section-title">Skills</div>
             <div id="skill-wrapper"> <!-- / skills -->
               <div id="skill-container">
-                <div><img src="html-logo.png" alt="HTML"></div>
-                <div><img src="css-logo.png" alt="CSS"></div>
-                <div><img src="javascript-logo.jpg" alt="JavaScript"></div>
-                <div><img src="nodejs-logo.png" alt="node.js"></div>
-                <div><img src="React.js_logo-512.png" alt="React.js"></div>
-                <div><img src="Ruby_logo.png" alt="Ruby"></div>
-                <div><a href="https://github.com/abradley23"><img src="github-logo-white.png" alt="Github"></div></a>
-                <div><img src="logo_adobe_ps_ai.png" alt="Adobe Photoshop/Illustrator"></div>
-                <div><img src="xd.png" alt="Adobe Xd"></div>
+                <div><img src="./images/html-logo.png" alt="HTML"></div>
+                <div><img src="./images/css-logo.png" alt="CSS"></div>
+                <div><img src="./images/javascript-logo.jpg" alt="JavaScript"></div>
+                <div><img src="./images/nodejs-logo.png" alt="node.js"></div>
+                <div><img src="./images/React.js_logo-512.png" alt="React.js"></div>
+                <div><img src="./images/Ruby_logo.png" alt="Ruby"></div>
+                <div><a href="https://github.com/abradley23"><img src="./images/github-logo-white.png" alt="Github"></div></a>
+                <div><img src="./images/logo_adobe_ps_ai.png" alt="Adobe Photoshop/Illustrator"></div>
+                <div><img src="./images/xd.png" alt="Adobe Xd"></div>
               </div>
             </div>
-          <link rel="stylesheet" href="global.css">
+          <link rel="stylesheet" href="./style/global.css">
     </body>
   </main>
 </html>

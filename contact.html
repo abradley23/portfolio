@@ -5,61 +5,61 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adlai Bradley: Contact Me</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/forms.css">
     <!-- <script src="index.js"></script> -->
   </head>
   <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a class="current_page" href="contact.html">Contact</a>
-      </li>
-      <li>
-        <a href="https://github.com/abradley23"><img src="github-logo-white.png" id="GH_logo" alt="Github"></a>
-      </li> 
-      <li>
-        <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="linkedIn_logo_circle.png" id="LI_logo" alt="LinkedIn"></a>
-      </li>   
-    </ul>
-  </nav>
+      <ul>
+        <li>
+          <a  href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="current_page" href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="https://github.com/abradley23"><img src="./images/github-logo-white.png" id="GH_logo" alt="Github"></a>
+        </li> 
+        <li>
+          <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="./images/linkedIn_logo_circle.png" id="LI_logo" alt="LinkedIn"></a>
+        </li> 
+      </ul>
+    </nav>
 
-  <header>
-    <h1>Let's get in touch!</h1>
-  </header>
-
-  <main class="contact_form">
-    <div id="form_container">
-      <body>
-        <form
-          action="https://formspree.io/adlai.bradley@gmail.com"
-          method="post"
-        >
-        <div class="form_input">
-          <label for="your_name">Your Name</label>
-        <input
-        type="text"
-        name="your_name"
-        autocomplete="off"
-        />
-      </div>
-
-      <div class="form_input">
-        <label for="your_message">Your Message</label>
-        <textarea
-          name="your_message"
-          rows="10" cols="100"
+  <body class="backdrop">
+    <div class="contact-title">Let's get in touch!</div>
+    <main class="contact_form ">
+      <div id="form_container">
+        <body>
+          <form
+            action="https://formspree.io/adlai.bradley@gmail.com"
+            method="post"
           >
-        </textarea>
-        </div>
-        <button type="Send">Send</button>
-        <input type="reset" name="Reset"></input>
-        </form>
-      </body>
-    </div>
-  </main>
-</html>
+          <div class="form_input">
+            <label for="your_name">Your Name</label>
+            <input
+              type="text"
+              name="your_name"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form_input">
+            <label for="your_message">Your Message</label>
+            <textarea
+              name="your_message"
+              rows="10" cols="100"
+            >
+            </textarea>
+            <button type="Send">Send</button>
+            <input type="reset" name="Reset"></input>
+          </div>
+          
+          </form>
+        </body>
+      </div>
+    </main>
+  </body>
+  </html>

@@ -1,13 +1,21 @@
+.contact-title {
+  margin-top: 5rem;
+  font-size: 3rem;
+  /* font-weight: bold; */
+  text-align: center;
+}
 main {
   padding: 0 20px;
 }
 
-input[type="text"], textarea {
+input[type='text'],
+textarea {
   width: 100%;
   font-size: 1.2rem;
   padding: 6px;
   margin: 6px 0;
-  border: 2px solid lightgray;
+  border: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
 }
 
 textarea {
@@ -18,6 +26,10 @@ form {
   width: 820px;
   margin: 0 auto;
 }
+.form_input label {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 600px) {
   form {
@@ -25,18 +37,21 @@ form {
   }
 }
 
-button, input[type="reset"] {
-  background-color: cornflowerblue;
+button,
+input[type='reset'] {
+  background-color: black;
   color: white;
-  padding: 5px;
-  border: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
   width: 100px;
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: background-color 0.4s;
 }
 
-button:hover, input[type="reset"]:hover {
-  background-color: teal;
+button:hover,
+input[type='reset']:hover {
+  background-color: #f99613;
 }
 
 h1 {

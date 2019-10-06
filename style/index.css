@@ -1,0 +1,163 @@
+main {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.row {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+.row img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.name-label {
+  font-size: 65px;
+  font-weight: 400;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  line-height: 1;
+}
+#addlay {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+#profile_pic {
+  border-radius: 100%;
+  height: 300;
+  width: 300;
+  object-fit: cover;
+  border: 4px solid rgba(0, 0, 0, 0.65);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.123);
+}
+#dev-label {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+#blurb {
+  width: 80%;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin: 1rem;
+  margin: 50px 0 50px 0;
+}
+.section-title::before {
+  content: '<  ';
+}
+.section-title::after {
+  content: '  />';
+}
+
+header {
+  background-color: #46bab2;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 30px;
+  display: grid;
+  place-items: center;
+}
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 65px;
+  /* font-weight: 400; */
+  letter-spacing: 3px;
+  line-height: 0.8;
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+header h1 span {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 25px;
+  line-height: 1;
+}
+
+#blurb {
+  width: 80%;
+  text-align: center;
+}
+
+.gallery {
+  padding-bottom: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.gallery #proj-container {
+  display: grid;
+  place-items: center;
+  padding-bottom: 50px;
+  position: relative;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 25px;
+}
+.project-pic-hero {
+  width: fit-content;
+  height: 300px;
+  background: url('../images/WynHeroSS2.png') no-repeat;
+  background-size: cover;
+}
+.project-pic-waldo {
+  width: fit-content;
+  height: 300px;
+  background: url('../images/WynWaldoSS.png') no-repeat;
+  background-size: cover;
+}
+.project-description {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 2rem;
+  transition: ease-in 0.3s;
+}
+.project-pic-waldo:hover .project-description,
+.project-pic-hero:hover .project-description {
+  opacity: 0.9;
+}
+
+.gallery #skill-wrapper {
+  width: 100%;
+  height: 400px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: absolute;
+}
+.gallery #skill-wrapper #skill-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.gallery #skill-wrapper #skill-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  place-items: center;
+  padding: 0;
+  grid-row-gap: 10px;
+  width: 150%;
+  position: relative;
+}
+
+.projspan {
+  font-size: 1.2rem;
+}
