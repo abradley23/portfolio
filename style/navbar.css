@@ -16,8 +16,9 @@ nav ul {
 nav ul li {
   font-size: 20px;
   font-weight: bold;
+  list-style-type: none;
 }
-
+  
 nav ul li a {
   color: white;
   height: 60px;
