@@ -46,3 +46,8 @@ nav ul li a:hover{
   width: 65px;
   object-fit: contain; 
 }
+
+#TW_logo {
+  width: 35px;
+  object-fit: contain; 
+}
