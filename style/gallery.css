@@ -35,12 +35,14 @@
 #carousel figure:nth-child(11){ transform: rotateY(360deg) translateZ(288px);}
 
 #carousel img{
+  filter: grayscale(1);
   -webkit-filter: grayscale(1);
   transition: all .5s ease;
   width: 50%;
 }
 
 #carousel img:hover{
+  filter: grayscale(0);
   -webkit-filter: grayscale(0);
   transform: scale(1.2,1.2);
 }

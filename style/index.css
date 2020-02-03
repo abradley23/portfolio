@@ -85,10 +85,23 @@ header h1 span {
   font-size: 25px;
   line-height: 1;
 }
+header #profp {
+  clip-path: polygon(100% 0, 92% 52%, 100% 100%, 52% 100%, 45% 52%, 60% 0);
+  margin-right: 40%;
+}
+
+#blurbnpic{
+  display: grid;
+  place-items: center;
+  position: relative;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 1fr;
+}
 
 #blurb {
   width: 80%;
   text-align: center;
+  padding-left: 10%;
 }
 
 .gallery {
