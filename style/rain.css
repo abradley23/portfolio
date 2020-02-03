@@ -23,3 +23,5 @@ body {
 @-moz-keyframes fall {
   to {margin-top: 900px;}
 }
+
+/* (HTML) <body onload="createRain();"> */

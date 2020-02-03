@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/gallery.css">
     <!-- <link rel="stylesheet" href="./style/rain.css"> -->
   </head>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="rain.js"></script> -->
-</body>
+<body>
   <nav>
     <ul>
       <li>
@@ -30,7 +31,7 @@
         <a href="https://www.linkedin.com/in/adlai-bradley/"><img src="./images/linkedIn_logo_circle.png" id="LI_logo" alt="LinkedIn"></a>
       </li> 
       <li>
-        <a href="https://twitter.com/adlaidoescode"><img src="./images/Twitter-icon-gray.png" id="TW_logo" alt="Twitter"></a>
+        <a href="https://twitter.com/adlaidoescode"><img src="./images/twitter-logo-vector-png-clipart-1.png" id="TW_logo" alt="Twitter"></a>
       </li> 
     </ul>
   </nav>
@@ -51,64 +52,65 @@
       <!-- </div> -->
     </header>
 
-    <body onload="createRain();">
-      <section class="rain">
-        <div id="top"></div>
-          <section class="gallery"> <!-- / projects -->
-            <div class="section-title">Projects</div>
-              <div class="row">
-                <div id="proj-container">
-                  <a href="#" class="close"></a>
-                  <div class="proj">
-                    <a href="https://wynwaldo.herokuapp.com/"><span class="projspan">WynWaldo</span></a>
-                      <div class='project-pic-waldo'>
-                        <div class='project-description'>
-                          <p>Photo-sharing social app built on React on Rails directing users to images of street art in Wynwood, Miami, FL.</p>
-                            <ul id="ww_desc">
-                              <li>Front-End Developer</li>
-                              <li>Location data taken from .jpeg photos using ruby Exifr gem</li>
-                              <li>Metadata placed on a mapboxGL map using Geocoder gem</li>
-                              <li>Timeline ordered by Most Visits and/or Nearest to you</li>
-                            </ul>
-                        </div>
-                      </div>
-                      <a href="https://github.com/wyncode/aaron_nicole_adlai_wilson" target="_blank">Source Code</a>
-                  </div>
-                  <div class="proj">
-                    <a href="http://wynhero.herokuapp.com/" target="_blank">
-                      <span class="projspan">WynHero</span>
-                    </a>
-                    <div class="project-pic-hero">
-                      <div class="project-description">
-                        <p>Superhero database React app allowing users to search for biographical information on superheroes and other characters.</p>
-                          <ul>
-                            <li>Front-End Developer</li>
-                            <li>Information drawn from the Superhero API using axios</li>
-                          </ul>
-                      </div>
-                    </div>
-                      <!-- <img src="./images/WynHeroSS2.png" alt="WynHero"/> -->
-                        <a href="https://github.com/wyncode/adlai_gabriel_jajuan_miguel/" target="_blank">Source Code</a>
+    <!-- <section class="rain"> -->
+      
+    <section class="gallery"> <!-- / projects -->
+      <div class="section-title">Projects</div>
+        <div class="row">
+          <div id="proj-container">
+            <a href="#" class="close"></a>
+            <div class="proj">
+              <a href="https://wynwaldo.herokuapp.com/"><span class="projspan">WynWaldo</span></a>
+                <div class='project-pic-waldo'>
+                  <div class='project-description'>
+                    <p>Photo-sharing social app built on React on Rails directing users to images of street art in Wynwood, Miami, FL.</p>
+                      <ul id="ww_desc">
+                        <li>Front-End Developer</li>
+                        <li>Location data taken from .jpeg photos using ruby Exifr gem</li>
+                        <li>Metadata placed on a mapboxGL map using Geocoder gem</li>
+                        <li>Timeline ordered by Most Visits and/or Nearest to you</li>
+                      </ul>
                   </div>
                 </div>
-              </div> <!-- / row -->
-
-            <div class="section-title">Skills</div>
-              <div id="skill-wrapper"> <!-- / skills -->
-                <div id="skill-container">
-                  <div><img src="./images/html-logo.png" alt="HTML"></div>
-                  <div><img src="./images/css-logo.png" alt="CSS"></div>
-                  <div><img src="./images/javascript-logo.jpg" alt="JavaScript"></div>
-                  <div><img src="./images/nodejs-logo.png" alt="node.js"></div>
-                  <div><img src="./images/React.js_logo-512.png" alt="React.js"></div>
-                  <div><img src="./images/Ruby_logo.png" alt="Ruby"></div>
-                  <div><a href="https://github.com/abradley23"><img src="./images/github-logo-white.png" alt="Github"></div></a>
-                  <div><img src="./images/adobe-photoshop-icon-png-18.jpg" alt="Adobe Photoshop"></div>
-                  <div id="xd_skill"><img src="./images/xd.png" alt="Adobe Xd"></div>
+                <a href="https://github.com/wyncode/aaron_nicole_adlai_wilson" target="_blank">Source Code</a>
+            </div>
+            <div class="proj">
+              <a href="http://wynhero.herokuapp.com/" target="_blank">
+                <span class="projspan">WynHero</span>
+              </a>
+              <div class="project-pic-hero">
+                <div class="project-description">
+                  <p>Superhero database React app allowing users to search for biographical information on superheroes and other characters.</p>
+                    <ul>
+                      <li>Front-End Developer</li>
+                      <li>Information drawn from the Superhero API using axios</li>
+                    </ul>
                 </div>
               </div>
-          </section>
+                <!-- <img src="./images/WynHeroSS2.png" alt="WynHero"/> -->
+                  <a href="https://github.com/wyncode/adlai_gabriel_jajuan_miguel/" target="_blank">Source Code</a>
+            </div>
+          </div>
+        </div> <!-- / row -->
+    </section>
+
+    <div id="top"></div>
+      <div class="section-title">Skills</div>
+        <div id="skill-wrapper"> <!-- / skills -->
+          <div id="carousel">
+            <figure><img src="./images/html-logo.png" alt="HTML"></figure>
+            <figure><img src="./images/badge-css-3-512.png" alt="CSS"></figure>
+            <figure><img src="./images/javascript-logo.jpg" alt="JavaScript"></figure>
+            <figure id="node_skill"><img src="./images/nodejs-logo.png" alt="node.js"></figure id="node_skill">
+            <figure><img src="./images/React.js_logo-512.png" alt="React.js"></figure>
+            <figure><img src="./images/Ruby_logo.png" alt="Ruby"></figure>
+            <figure id="github_skill"><a href="https://github.com/abradley23"><img src="./images/github-logo-white.png" alt="Github"></figure id="github_skill"></a>
+            <figure><img src="./images/adobe-photoshop-icon-png-18.jpg" alt="Adobe Photoshop"></figure>
+            <figure id="xd_skill"><img src="./images/xd.png" alt="Adobe Xd"></figure id="xd_skill">
+            <figure id="uxui_skill"><img src="./images/uxui_circle.png" alt="UX/UI"></figure id="uxui_skill">
+          </div>
         </div>
-      </section>
+    <!-- </section> -->
   </main>
+</body>
 </html>

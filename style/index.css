@@ -92,7 +92,7 @@ header h1 span {
 }
 
 .gallery {
-  padding-bottom: 450px;
+  /* padding-bottom: 450px; */
   position: relative;
   overflow: hidden;
 }
@@ -136,40 +136,6 @@ header h1 span {
   opacity: 0.9;
 }
 
-/* skills gallery fix try */
-/* .gallery #skill-wrapper {
-  display: grid;
-  grid-template-columns: 20px 1fr 20px;
-}
-.gallery #skill-wrapper > * {
-  grid-column: 2 / -2;
-}
-.gallery #skill-wrapper > .full {
-  grid-column: 1 / -1;
-} */
-
-.gallery #skill-wrapper {
-  width: 100%;
-  height: 400px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  position: absolute;
-}
-.gallery #skill-wrapper #skill-container img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-}
-.gallery #skill-wrapper #skill-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  place-items: center;
-  padding: 0;
-  grid-row-gap: 10px;
-  width: 150%;
-  position: relative;
-}
-
 .projspan {
   font-size: 1.2rem;
 }
@@ -178,7 +144,3 @@ header h1 span {
   font-size: 14px;
 }
 
-#xd_skill {
-  width: 40px;
-  object-fit: contain; 
-}
