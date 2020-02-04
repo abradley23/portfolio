@@ -25,6 +25,9 @@ main {
   text-transform: uppercase;
   letter-spacing: 7px;
   line-height: 1;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #addlay {
   font-size: 1rem;
@@ -84,6 +87,9 @@ header h1 span {
   letter-spacing: 7px;
   font-size: 25px;
   line-height: 1;
+}
+header h1 #home-header {
+  padding-top: 30px;
 }
 header #profp {
   clip-path: polygon(100% 0, 92% 52%, 100% 100%, 52% 100%, 45% 52%, 60% 0);
